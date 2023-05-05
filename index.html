@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <!-- Author: Dennis Otwoma (github.com/codeme254) -->
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__left">
+        <h1 class="logo u-marg-right-medium">snap</h1>
+        <!-- <img src="./images/logo.svg" alt=""> -->
+        <nav class="header-nav">
+          <ol class="header-nav-list">
+            <li class="header-nav-list__item">
+              <a href="" class="header-nav-list__item--link">
+                <span>
+                  features
+                  <img
+                    src="./images/icon-arrow-down.svg"
+                    class="icon-drop-down"
+                    alt="drop down"
+                  />
+                </span>
+              </a>
+              <div class="dropdown">
+                <a href="">
+                  <img src="./images/icon-todo.svg" alt="todo" />
+                  <span>TodoList</span>
+                </a>
+                <a href="">
+                  <img src="./images/icon-calendar.svg" alt="calendar" />
+                  <span>Calendar</span>
+                </a>
+                <a href="">
+                  <img src="./images/icon-reminders.svg" alt="reminders" />
+                  <span>Reminders</span>
+                </a>
+                <a href="">
+                  <img src="./images/icon-planning.svg" alt="planning" />
+                  <span>Notification</span>
+                </a>
+              </div>
+            </li>
+            <li class="header-nav-list__item">
+              <a href="" class="header-nav-list__item--link">
+                <span>
+                  company
+                  <img
+                    src="./images/icon-arrow-down.svg"
+                    class="icon-drop-down"
+                    alt="drop down"
+                  />
+                </span>
+              </a>
+              <div class="dropdown">
+                <a href="">History</a>
+                <a href="">Our Team</a>
+                <a href="">Blog</a>
+              </div>
+            </li>
+            <li class="header-nav-list__item">
+              <a href="" class="header-nav-list__item--link">careers</a>
+            </li>
+            <li class="header-nav-list__item">
+              <a href="" class="header-nav-list__item--link">about</a>
+            </li>
+          </ol>
+        </nav>
+      </div>
+
+      <div class="header__right">
+        <a href="">login</a>
+        <a href="">register</a>
+      </div>
+      <img src="./images/icon-menu.svg" class="icon-menu" alt="menu" />
+    </header>
+    <!-- end of the header -->
+
+    <!-- The home section -->
+    <section class="home">
+      <div class="home__side home__left">
+        <div class="home__textbox">
+          <h2>Make remote work</h2>
+          <p>
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+          <a href="">Learn more</a>
+        </div>
+        <div class="home__client-icons">
+          <img src="./images/client-databiz.svg" alt="databiz log" />
+          <img src="./images/client-audiophile.svg" alt="audiophile logo" />
+          <img src="./images/client-meet.svg" alt="meet logo" />
+          <img src="./images/client-maker.svg" alt="maker logo" />
+        </div>
+      </div>
+      <div class="home__side home__right">
+        <img
+          src="./images/image-hero-desktop.png"
+          alt="a client streamlining his remote work"
+        />
+      </div>
+    </section>
+    <!-- end of the home section -->
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/codeme254">Dennis Otwoma</a>.
+    </div>
+  </body>
+</html>
